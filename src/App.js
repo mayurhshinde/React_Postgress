@@ -38,7 +38,7 @@ class App extends Component {
             <Route exact path="/add" component={AddEmployee} />
             <Route path="/employee/:id" component={Employee} />
           </Switch>
-        </div>
+        </div> 
       </div>
     );
   }
